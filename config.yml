@@ -1,0 +1,106 @@
+baseURL: "https://fmigone.github.io/fajmigone/" 
+title: Franck MIGONE
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: papers/
+          weight: 1
+        - name: Courses
+          url: courses/
+          weight: 2
+        - name: Data
+          url: data/
+          weight: 3 
+        - name: Newsletter
+          url: https://fmigone.substack.com
+          weight: 4
+
+params:
+    description: "MIGONE Franck"
+    author: "Franck MIGONE"
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "November 2023"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: true
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Franck MIGONE
+          subtitle: "Statisticien Economiste - Institut National de la Statistique |
+          Diplômé ISE de Ecole Nationale Supérieure de Statistique et d’Economie Appliquée ENSEA d’Abidjan. |
+          \nPassionné de recherche en Economie et d’Intelligence Artificielle"
+          imageUrl: "picture_me.jpg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Franck MIGONE
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: Courses
+              url: courses/
+            - name: Data
+              url: data/
+            - name: Newsletter
+              url: https://fmigone.substack.com/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+    socialIcons:
+        - name: CV
+          url: Franck_MIGONE_CV.pdf
+        - name: Email
+          url: mailto:j.migone@stat.plan.gouv.ci
+        - name: GitHub
+          url: https://github.com/fmigone
+        - name: Substack
+          url: https://fmigone.substack.com
+        - name: Twitter
+          url: https://twitter.com/fajmigone
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Franck MIGONE"
+      icon: favicon.ico
+      iconHeight: 16
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 5
+        ordered: false
+        startLevel: 5

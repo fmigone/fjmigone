@@ -1,0 +1,3 @@
+[submodule "fajmigone"]
+    path = fajmigone
+    url = https://github.com/fmigone/fajmigone.git
